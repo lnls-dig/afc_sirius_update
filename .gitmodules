@@ -1,0 +1,3 @@
+[submodule "hpm-downloader"]
+	path = hpm-downloader
+	url = https://github.com/lnls-dig/hpm-downloader
