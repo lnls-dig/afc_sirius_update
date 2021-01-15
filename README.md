@@ -27,3 +27,9 @@ The provided afc-sirius-list file include the current AFC and racks configuratio
 IA-01RaBPM-CO-CrateCtrl          1            7,8,9,10,11
    [MCH hostname/ip]     [AFC Timing slot]  [AFC BPM slots]
 ```
+
+If you don't want to update AFC Timing boards or AFC BPM boards, mark its respective slot list field with an `n`:
+
+```
+IA-01RaBPM-CO-CrateCtrl n 7,8,9,10,11 (only update the bpm boards)
+```
